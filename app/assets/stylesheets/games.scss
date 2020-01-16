@@ -1,0 +1,44 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Defining a variable
+$blue: 'blue';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.letters {
+  display: flex;
+}
+
+.letter {
+  display: flex;
+  width: 25px;
+  background-color: blue;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  justify-content: center;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form {
+  margin-left: 5px;
+}
+
+.box {
+  width: 80%;
+}
